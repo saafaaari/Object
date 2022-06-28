@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B643ACF286B45DC0047221F /* Sreening.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B643ACE286B45DC0047221F /* Sreening.swift */; };
 		9B643AD6286B4E310047221F /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B643AD5286B4E310047221F /* Money.swift */; };
+		9B643AD8286B54080047221F /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B643AD7286B54080047221F /* Reservation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		9B643ACB286B45DC0047221F /* Objact_Ch2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Objact_Ch2; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B643ACE286B45DC0047221F /* Sreening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sreening.swift; sourceTree = "<group>"; };
 		9B643AD5286B4E310047221F /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		9B643AD7286B54080047221F /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				9B643ACE286B45DC0047221F /* Sreening.swift */,
 				9B643AD5286B4E310047221F /* Money.swift */,
+				9B643AD7286B54080047221F /* Reservation.swift */,
 			);
 			path = Objact_Ch2;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				9B643AD6286B4E310047221F /* Money.swift in Sources */,
 				9B643ACF286B45DC0047221F /* Sreening.swift in Sources */,
+				9B643AD8286B54080047221F /* Reservation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
