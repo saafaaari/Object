@@ -34,5 +34,10 @@ class Sreening {
     func reserve(customer: Customer/*예매자의 정보를 담고있는 타입*/, audienceCount: Int/*인원수*/) -> Reservation {
         return Reservation()
     }
+    
+    //요금을 계산한 후 반환하는 메서드
+    func calculateFee() -> Money {
+        return movie.calculateMovieFee()
+    }
 }
 // 프로퍼티를 은닉화하고 메서드를 오픈함으로써 객체의 자율성을 보장한다.
